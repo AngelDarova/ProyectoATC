@@ -71,7 +71,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableEnd="@drawable/ic_done"
+            android:drawableEnd="@drawable/baseline_done_24"
             android:inputType="textEmailAddress" />
 
         <View
@@ -87,7 +87,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableEnd="@drawable/ic_eye"
+            android:drawableEnd="@drawable/baseline_remove_red_eye_24"
             android:inputType="textPassword " />
 
         <RelativeLayout
@@ -115,6 +115,7 @@
             android:layout_height="10dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/ingreso"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Ingresar"
